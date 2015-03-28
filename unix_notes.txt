@@ -1,3 +1,6 @@
+# Hidden folder where the staging area and commits live
+.git/
+
 ll
 ls -l
 ls
@@ -5,17 +8,17 @@ les
 moving_around.txt
 history > moving_around.txt
 pwd
-#Shows current directory
+# Shows current directory
 man less
 #Man pages for the command less
 history /git
-#Shows history that involves commands with git in the name
+# Shows history that involves commands with git in the name
 history | less
-#Pipes output of history to less, so you can scroll through it more slowly
+# Pipes output of history to less, so you can scroll through it more slowly
 history
 cd
 cd ..
-#Goes up one directory
+# Goes up one directory
 cd Databases
 ls Databases
 ls WebKit
@@ -53,11 +56,11 @@ brew info
 brew
 help
 ls -G
-#Is case sensitive
+# Is case sensitive
 ls -g
 brew update
 uname
-#End pre work
+# End pre work
 curl -fsSL http://git.io/QxUaOQ | sh
 curl -fsSL http://git.io/7UHtNA | sh
 git config --global user.email 'olenellina@gmail.com'
@@ -79,4 +82,4 @@ sudo xcodebuild -license
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"sudo xcodebuild -license
 sudo ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/install/master/install)"
-#Begin pre-work
+# Begin pre-work
