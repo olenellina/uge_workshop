@@ -1,0 +1,82 @@
+ll
+ls -l
+ls
+les
+moving_around.txt
+history > moving_around.txt
+pwd
+#Shows current directory
+man less
+#Man pages for the command less
+history /git
+#Shows history that involves commands with git in the name
+history | less
+#Pipes output of history to less, so you can scroll through it more slowly
+history
+cd
+cd ..
+#Goes up one directory
+cd Databases
+ls Databases
+ls WebKit
+cd Library
+ls three
+cd Desktop
+ls Desktop/
+cd Google\ Drive
+cd Google Drive
+cd "Google Drive"
+cd Pictures/
+cd /users/melissa/
+ls -le
+ls -e
+ls -rte
+ls -rt
+-lt
+ls -rtw
+ls -S
+ls -rltS
+man ls
+ls -rlt
+ls -r
+ls -lt
+ls -l -t
+ls - l -t
+ls -t
+echo $PATH
+path
+cd /
+git --version
+echo $EDITOR
+brew info fish
+brew info
+brew
+help
+ls -G
+#Is case sensitive
+ls -g
+brew update
+uname
+#End pre work
+curl -fsSL http://git.io/QxUaOQ | sh
+curl -fsSL http://git.io/7UHtNA | sh
+git config --global user.email 'olenellina@gmail.com'
+git config --global.user.email 'olenellina@gmail.com'
+git config --global user.name 'Melissa Rodriguez'
+brew install git
+subl /etc/paths
+subl ~/.config/fish/config.fish
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+fish_update_completions
+curl -fsSL http://git.io/beJs | ruby
+chsh -s /usr/local/bin/fish
+echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
+brew install fish
+brew doctor
+#Checks to see if brew install is working
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+sudo xcodebuild -license
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"sudo xcodebuild -license
+sudo ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/install/master/install)"
+#Begin pre-work
